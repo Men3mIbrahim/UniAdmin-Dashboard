@@ -1,0 +1,72 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+.status {
+    padding: 7px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.pending {
+    background-color: #fff7ed;
+    color: #c2410c;
+}
+
+.approved {
+    background-color: #f0fdf4;
+    color: #15803d;
+}
+
+.rejected {
+    background-color: #fef2f2;
+    color: #dc2626;
+}
+
+.action {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn{
+    width: 75px;
+    margin-right: 5px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .5s;
+
+}
+.btn:hover{
+    background-color: darkgray;
+    color: #15803d;
+    font-weight: 600;
+    padding: 3px;
+}

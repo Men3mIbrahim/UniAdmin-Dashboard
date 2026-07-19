@@ -1,0 +1,44 @@
+.navbar {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    border-bottom: 1px solid #e5e7eb;
+
+}
+
+.search {
+    width: 300px;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    outline: none;
+}
+
+.actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.profile svg {
+    font-size: 25 px;
+}
