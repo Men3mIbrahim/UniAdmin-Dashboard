@@ -21,7 +21,7 @@ export default function Courses() {
     instructor: "",
     credits: ""
   });
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
 
 
 
