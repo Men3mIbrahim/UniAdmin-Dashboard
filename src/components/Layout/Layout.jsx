@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from './../Navbar/Navbar';
 import Sidebar from './../Sidebar/Sidebar';
 import styles from "./Layout.module.css";
+import PageTransition from './../PageTransition/PageTransition';
 
 export default function Layout() {
   return <>
@@ -13,7 +14,9 @@ export default function Layout() {
         <Navbar />
 
         <main className={styles.main}>
-          <Outlet />
+          <PageTransition>
+            <Outlet />
+          </PageTransition>
         </main>
       </div>
     </div>

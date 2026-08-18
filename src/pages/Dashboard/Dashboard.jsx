@@ -114,6 +114,7 @@ export default function Dashboard() {
             title={card.title}
             value={card.value}
             icon={card.icon}
+            index={index}
           />
         ))}
       </div>

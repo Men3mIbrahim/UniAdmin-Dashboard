@@ -65,8 +65,46 @@
 
 }
 .btn:hover{
-    background-color: darkgray;
-    color: #15803d;
+    color: white;
+    background-color: #15803d;
+    font-weight: 600;
+    padding: 3px;
+}
+
+.btns{
+    width: 75px;
+    margin-right: 5px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .5s;
+
+}
+.btns:hover{
+    color: white;
+    background-color: #bb0f0f;
+    font-weight: 600;
+    padding: 3px;
+}
+
+.btnss{
+    width: 75px;
+    margin-right: 5px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: .5s;
+
+}
+.btnss:hover{
+    color: white;
+    background-color: #d6960b;
     font-weight: 600;
     padding: 3px;
 }
